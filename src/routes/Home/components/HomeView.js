@@ -1,11 +1,19 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-export const HomeView = () => (
-    <div className="home">
-      <div className="sample-box"></div>
-      <div className="btn btn-success btn-sm">Label</div>
-      <h4>Kung unsa man imong ma huna hunaan, atuang buhaton! Imagination ang limit!</h4>
-    </div>
-)
+class HomeView extends Component {
+  render() {
+    return (
+        <div className="home text-center">
+          <h1 className="title">Barracuda</h1>
+          <div className="input-group">
+            <input type="text" className="form-control"/>
+          </div>
+          <div className="actions">
+            <div className="btn btn-default">Barracuda Search</div>
+          </div>
+        </div>
+    );
+  }
+}
 
 export default HomeView
