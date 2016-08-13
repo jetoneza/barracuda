@@ -1,0 +1,184 @@
+$theme: sleek-modern;
+
+// Default
+$theme-color-primary: #003B46;
+$theme-color-secondary: #07575B;
+$theme-color-tertiary: #66A5AD;
+$theme-color-quarternary: #C4DFE6;
+
+// Color Themes
+// Cool Blues
+@if $theme == cool-blue {
+  $theme-color-primary: #003B46;
+  $theme-color-secondary: #07575B;
+  $theme-color-tertiary: #66A5AD;
+  $theme-color-quarternary: #C4DFE6;
+}
+
+// Sunset to Dusk
+@if $theme == sunset-to-dusk {
+  $theme-color-primary: #363237;
+  $theme-color-secondary: #2D4262;
+  $theme-color-tertiary: #73605B;
+  $theme-color-quarternary: #D09683;
+}
+
+// Neutral & Versatile
+@if $theme == neutral-versatile {
+  $theme-color-primary: #626D71;
+  $theme-color-secondary: #CDCDC0;
+  $theme-color-tertiary: #DDBC95;
+  $theme-color-quarternary: #B38867;
+}
+
+// Berry Blues
+@if $theme == berry-blues {
+  $theme-color-primary: #1E1F26;
+  $theme-color-secondary: #283655;
+  $theme-color-tertiary: #4D648D;
+  $theme-color-quarternary: #D0E1F9;
+}
+
+// Fresh Greens
+@if $theme == fresh-greens {
+  $theme-color-primary: #265C00;
+  $theme-color-secondary: #68A225;
+  $theme-color-tertiary: #B3DE81;
+  $theme-color-quarternary: #FDFFFF;
+}
+
+// Wintery Reds
+@if $theme == wintery-reds {
+  $theme-color-primary: #A10115;
+  $theme-color-secondary: #D72C16;
+  $theme-color-tertiary: #F0EFEA;
+  $theme-color-quarternary: #C0B2B5;
+}
+
+// Chocolaty Browns
+@if $theme == chocolaty-browns {
+  $theme-color-primary: #301B28;
+  $theme-color-secondary: #532634;
+  $theme-color-tertiary: #B6452C;
+  $theme-color-quarternary: #DDC5A2;
+}
+
+// Sun & sky
+@if $theme == sun-sky {
+  $theme-color-primary: #217CA3;
+  $theme-color-secondary: #E29930;
+  $theme-color-tertiary: #32384D;
+  $theme-color-quarternary: #211F30;
+}
+
+// Cosmopolitan
+@if $theme == cosmopolitan {
+  $theme-color-primary: #8593AE;
+  $theme-color-secondary: #5A4E4D;
+  $theme-color-tertiary: #7E675E;
+  $theme-color-quarternary: #DDA288;
+}
+
+// Maritime Brights
+@if $theme == maritime-brights {
+  $theme-color-primary: #257985;
+  $theme-color-secondary: #5EA8A7;
+  $theme-color-tertiary: #FFFFFF;
+  $theme-color-quarternary: #FF4447;
+}
+
+// Understated & Versatile
+@if $theme == understated-versatile {
+  $theme-color-primary: #335252;
+  $theme-color-secondary: #D4DDE1;
+  $theme-color-tertiary: #AA1B41;
+  $theme-color-quarternary: #2D3033;
+}
+
+// Arctic Sunrise
+@if $theme == arctic-sunrise {
+  $theme-color-primary: #FFCCBB;
+  $theme-color-secondary: #6EB5C0;
+  $theme-color-tertiary: #006C84;
+  $theme-color-quarternary: #E2E8E4;
+}
+
+// Hazy Grays
+@if $theme == hazy-grays {
+  $theme-color-primary: #2C4A52;
+  $theme-color-secondary: #537072;
+  $theme-color-tertiary: #8E9B97;
+  $theme-color-quarternary: #F4EBDB;
+}
+
+// Sleek & Modern
+@if $theme == sleek-modern {
+  $theme-color-primary: #2F2E33;
+  $theme-color-secondary: #D5D6D2;
+  $theme-color-tertiary: #FFFFFF;
+  $theme-color-quarternary: #3A5199;
+}
+
+// Orange Accent
+@if $theme == orange-accent {
+  $theme-color-primary: #756867;
+  $theme-color-secondary: #D5D6D2;
+  $theme-color-tertiary: #353C3F;
+  $theme-color-quarternary: #FF8D3F;
+}
+
+// Beyond Black & White
+@if $theme == beyond-black-white {
+  $theme-color-primary: #31A2AC;
+  $theme-color-secondary: #AF1C1C;
+  $theme-color-tertiary: #F0EFF0;
+  $theme-color-quarternary: #2F2F28;
+}
+
+// Warm and Cool
+@if $theme == warm-cool {
+  $theme-color-primary: #444C5C;
+  $theme-color-secondary: #CE5A57;
+  $theme-color-tertiary: #78A5A3;
+  $theme-color-quarternary: #E1B16A;
+}
+
+// Industrial & In-Control
+@if $theme == industrial-in-control {
+  $theme-color-primary: #20232A;
+  $theme-color-secondary: #ACBEBE;
+  $theme-color-tertiary: #F4F4EF;
+  $theme-color-quarternary: #A01D26;
+}
+
+// Classic Metallics
+@if $theme == classic-metallics {
+  $theme-color-primary: #080706;
+  $theme-color-secondary: #EFEFEF;
+  $theme-color-tertiary: #D1B280;
+  $theme-color-quarternary: #594D46;
+}
+
+// Professional & Traditional
+@if $theme == professional-traditional {
+  $theme-color-primary: #962715;
+  $theme-color-secondary: #FFFFFF;
+  $theme-color-tertiary: #1E1E20;
+  $theme-color-quarternary: #BBC3C6;
+}
+
+// Cheerful Blues + Pink
+@if $theme == cheerful-blues-pink {
+  $theme-color-primary: #FFBEBD;
+  $theme-color-secondary: #FCFCFA;
+  $theme-color-tertiary: #337BAE;
+  $theme-color-quarternary: #1A405F;
+}
+
+// Urban Living
+@if $theme == urban-living {
+  $theme-color-primary: #DDDEDE;
+  $theme-color-secondary: #232122;
+  $theme-color-tertiary: #A5C05B;
+  $theme-color-quarternary: #7BA4A8;
+}

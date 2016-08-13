@@ -10,4 +10,37 @@
     width: 50%;
     margin: 10px auto;
   }
+
+  .actions {
+    .btn-search {
+      margin: 5px;
+    }
+  }
+
+  .theme-box-group {
+    margin-top: 10px;
+    .box {
+      margin: 5px;
+      width: 50px;
+      height: 50px;
+      color: #fff;
+      font-size: 25px;
+      padding: 7px;
+      display: inline-block;
+      border-radius: 2px;
+      &.box-1 {
+        background: $theme-color-primary;
+      }
+      &.box-2 {
+        background: $theme-color-secondary;
+      }
+      &.box-3 {
+        background: $theme-color-tertiary;
+        background: $brand-info;
+      }
+      &.box-4 {
+        background: $theme-color-quarternary;
+      }
+    }
+  }
 }
