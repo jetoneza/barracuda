@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { Link } from 'react-router';
 
 class HomeView extends Component {
   render() {
@@ -15,6 +16,8 @@ class HomeView extends Component {
           </div>
           <div className="actions">
             <div className="btn btn-primary btn-search">Barracuda Search</div>
+            {/* This is only temporary */}
+            <Link to="/music" className="btn btn-success">/music</Link>
           </div>
         </div>
     );
