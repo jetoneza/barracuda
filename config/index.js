@@ -30,6 +30,11 @@ const config = {
   server_port : process.env.PORT || 3000,
 
   // ----------------------------------
+  // API Configuration
+  // ----------------------------------
+  api_host : process.env.API_HOST,
+
+  // ----------------------------------
   // Compiler Configuration
   // ----------------------------------
   compiler_css_modules     : true,

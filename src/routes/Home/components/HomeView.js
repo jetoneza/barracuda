@@ -2,6 +2,9 @@ import React, {Component} from 'react'
 import { Link } from 'react-router';
 
 class HomeView extends Component {
+  componentDidMount() {
+    this.props.connectApi()
+  }
   render() {
     return (
         <div className="home text-center">
